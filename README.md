@@ -1,6 +1,5 @@
 # TemporalNetworkEpidemics
-We provide methods from linear algebra to simulate infection processes on time-varying topologies. For more information see reference  Koher, A. et a. *"Infections on Temporal Networks - A Matrix-Based Approach"* , PLoS ONE **11**, 4, (2016)
-
+We provide methods from linear algebra to simulate infection processes on time-varying topologies. For more information see reference  Koher, A. et a. [**Infections on Temporal Networks - A Matrix-Based Approach**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0151209) , PLoS ONE **11**, 4, (2016)
 
 # Epidemics on temporal networks
 The code implements three widely used epidemic models for simulation on temporal networks (ref [1]): SI, SIR and SIS. Each node can be either susceptible (S), infected (I) or recovered with permanent immunity (R). Furthermore, the disease transmission happens with a given probability upon contact and the recovery time is fixed to a number of time steps.
